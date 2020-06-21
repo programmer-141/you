@@ -1,0 +1,9 @@
+navbar
+{% for i in topics %}
+<br>
+<h1>{{i.heading}}</h1>
+<br>
+{{i.about_topic}}
+<br>
+<img src="{{i.image.url}}">
+{% endfor %}
